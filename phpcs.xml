@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="EHU_WebDev">
+  <description>The Edge Hill Computing Department's Web Development Coding Standard for Laravel 5.</description>
+  
+  <file>./app</file>
+  <arg value="s"/>
+    
+  <rule ref="PEAR">
+    <!-- Don't require @link -->
+    <exclude name="PEAR.Commenting.ClassComment.MissingLinkTag"/>
+    <exclude name="PEAR.Commenting.FileComment.MissingLinkTag"/>
+    <!-- Don't require @category -->
+    <exclude name="PEAR.Commenting.ClassComment.MissingCategoryTag"/>
+    <exclude name="PEAR.Commenting.FileComment.MissingCategoryTag"/>
+    <!-- No license, package, or author needed on classes -->
+    <exclude name="PEAR.Commenting.ClassComment.MissingLicenseTag"/>
+    <exclude name="PEAR.Commenting.ClassComment.MissingPackageTag"/>
+    <exclude name="PEAR.Commenting.ClassComment.MissingAuthorTag"/>
+    <!-- No package tag required on files -->
+    <exclude name="PEAR.Commenting.FileComment.MissingPackageTag"/>
+  </rule>
+  <rule ref="PSR1"></rule>
+  <rule ref="PSR2"></rule>
+</ruleset>

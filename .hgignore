@@ -1,0 +1,24 @@
+syntax: regexp
+^.buildpath$
+syntax: regexp
+^.settings$
+syntax: regexp
+^.project$
+syntax: regexp
+^vendor$
+syntax: regexp
+^node_modules$
+syntax: regexp
+^.env$
+syntax: glob
+database/*.sqlite
+storage/app/*
+storage/framework/*.php
+storage/framework/down
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+
+syntax: regexp
+^doc/api$

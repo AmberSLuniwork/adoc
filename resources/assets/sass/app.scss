@@ -1,0 +1,17 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import 'vendor/bower_components/foundation/scss/normalize.scss';
+@import 'vendor/bower_components/foundation/scss/foundation.scss';
+@import 'jquery_autocomplete.scss';
+
+td {
+    .button {
+        margin-bottom: 0;
+    }
+}
+td.nothing-found {
+    font-style: italic;
+}
+form.inline {
+    display: inline-block;
+}

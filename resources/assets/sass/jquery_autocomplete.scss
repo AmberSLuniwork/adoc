@@ -1,0 +1,18 @@
+.autocomplete-suggestions {
+    font-size: $f-dropdown-font-size;
+    background: $f-dropdown-bg;
+    border-width: $f-dropdown-border-width;
+    border-right-style: $f-dropdown-border-style;
+    border-bottom-style: $f-dropdown-border-style;
+    border-left-style: $f-dropdown-border-style;
+    border-color: $f-dropdown-border-color;
+    
+    .autocomplete-suggestion {
+        padding: $f-dropdown-list-padding;
+        color: $f-dropdown-font-color;
+    }
+    
+    .autocomplete-selected {
+        background: $f-dropdown-list-hover-bg;
+    }
+}

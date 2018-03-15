@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: ADoc
+        psr4_prefix: ADoc
+        src_path: app
